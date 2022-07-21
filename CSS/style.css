@@ -1,0 +1,239 @@
+:root {
+  --primary-text-color: #212121;
+  --paragraph-text-color: #757575;
+  --accent-color: #2196f3;
+  --footer-hero-color: #2f303a;
+  --primary-bg-color: #fff;
+  --second-bg-color: #f5f4fa;
+  --text-footer-color: rgba(255, 255, 255, 0.6);
+  --border--hed--color: #ececec;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  outline: tomato;
+}
+
+/*header*/
+.header {
+  border-bottom: 1px var(--border--hed--color) solid;
+}
+
+/*logo*/
+.logo {
+  font-family: raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.logo-web {
+  color: #2196f3;
+}
+.logo-studio {
+  color: var(--primary-text-color);
+}
+.logo-studiof {
+  color: var(--primary-bg-color);
+}
+
+/* nav */
+
+.site-nav .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.auth-nav .link {
+  color: var(--paragraph-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-nav .link.current,
+.site-nav .link:hover,
+.site-nav .link:focus,
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: #2196f3;
+}
+
+/*hero*/
+.hero {
+  background-color: var(--footer-hero-color);
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+.hero-title {
+  margin-bottom: 30px;
+  color: var(--primary-bg-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+
+/* benefits */
+
+.section {
+  padding-top: 97px;
+  padding-bottom: 97px;
+}
+
+.benefits-title {
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.benefits-list .title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.benefits-list .paragraph {
+  color: var(--paragraph-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/*team*/
+.team {
+  background-color: var(--second-bg-color);
+}
+
+.team-title {
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.team-list .title {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.team-list .paragraph {
+  color: var(--paragraph-text-color);
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+/*footer*/
+
+.footer {
+  background-color: var(--footer-hero-color);
+}
+
+.footer-address {
+  margin-bottom: 9px;
+  color: var(--primary-bg-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer .contakts {
+  margin-bottom: 9px;
+  color: var(--text-footer-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+
+.footer-address:hover,
+.footer-address:focus,
+.contakts:hover,
+.contakts:focus {
+  color: #2196f3;
+}
+
+/*button*/
+
+.button {
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px transparent;
+}
+
+.button.primary {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  padding: 10px 32px;
+  min-width: 200px;
+  min-height: 50px;
+}
+.button.secondary {
+  background: var(--second-bg-color);
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  padding: 7px 22px;
+  min-height: 38px;
+}
+
+.secondary:hover,
+.secondary:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+}
+
+/*portfolio*/
+
+.cases .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.cases .paragraph {
+  color: var(--paragraph-text-color);
+  font-size: 16px;
+  line-height: 1.88;
+}
