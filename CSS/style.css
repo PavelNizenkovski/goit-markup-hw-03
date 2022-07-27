@@ -135,6 +135,7 @@ margin-bottom: 20px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0,06em;
   text-transform: uppercase;
 }
 
@@ -156,6 +157,12 @@ margin-bottom: 20px;
 .benefits-list .item + .item {
 margin-left: 30px;
 
+}
+
+/*------Activity-------*/
+
+.section-activity {
+padding-bottom: 94px;
 }
 
 .list-img {
@@ -194,10 +201,6 @@ margin-left: 30px;
   background-color: var(--second-bg-color);
 }
 
-.foto {
-  margin-bottom: 30px;
-}
-
 .team-title {
   margin-bottom: 50px;
   font-size: 36px;
@@ -213,6 +216,11 @@ margin-left: 30px;
 .team-list .item + .item {
   width: 270px;
   margin-left: 30px;
+}
+
+.team-member {
+padding-top: 30px;
+padding-bottom: 30px;
 }
 
 .team-list .title {
@@ -289,7 +297,6 @@ padding: 10px 32px;
  
 }
 .button.secondary {
-  margin-bottom: 50px;
   padding: 6px 22px;
   min-height: 38px;
   background: var(--second-bg-color);
@@ -307,6 +314,7 @@ margin-left: 8px;
 .button-list {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
 }
 
 .button-menu {
@@ -322,8 +330,13 @@ width: 1200 px;
 
 /*-------portfolio------*/
 
+.main-container {
+text-align: center;
+}
+
 .button-list {
 display: flex;
+justify-content: center;
 }
 
 .cases {
